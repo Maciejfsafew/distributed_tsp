@@ -1,7 +1,9 @@
 # Parallel implementation of Travelling Salesman Problem
 
 # Architecture
+
 Master - Manages K-first layers of tree. Creates list of tasks, updates best solution. Assures load balancing.
+
 Worker - Asks for tasks in asynchronous manner, delivers results.
 
 Optimization - Pruning.
